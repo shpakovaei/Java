@@ -16,7 +16,7 @@ public class Main2 {
         }
     }
 
-    public static int randomNumber() { // генерирует случайное число
+    public static int randomNumber() {
         double x = (Math.random() * 10);
         int num = (int) x;
         return num;
